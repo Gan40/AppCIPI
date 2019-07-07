@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/actionBarTextView"
+            android:text="IPS"
+            android:textSize="24dp"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/actionBarButton"
+            android:background="@drawable/buttons_rounded"
+            android:layout_alignParentRight="true"
+            android:text="ПРОВАЙДЕР"
+            android:layout_marginRight="18dp"
+            android:textColor="@color/colorTextIntoButtons"
+            />
+
+    </RelativeLayout>
+
+</android.widget.Toolbar>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4055B1</color>
+    <color name="colorPrimaryDark">#4055B1</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAppBackground">#EDEDEB</color>
+
+    <color name="colorCheckTextView">#2F2E31</color>
+    <color name="colorButtons">#F1105A</color>
+    <color name="colorTextIntoButtons">#F8D0DE</color>
+    <color name="colorMainText">#4D4B4B</color>
+    <color name="colorSitesList">#FDFDFE</color>
+</resources>
